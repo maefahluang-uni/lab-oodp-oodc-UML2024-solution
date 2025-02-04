@@ -48,7 +48,7 @@ Based on the above requirements, draw the complete class diagram, list lcasses, 
 - Update Stock: Updates book stock when an order is placed.
 
 **Put your class diagram below.**
-[UML Logo](image/Lab05_Book.png)
+![UML](image/Lab05_Book.png)
 Exercise Two: Class Associations & Multiplicities
 -----------------------------
 Create a simple class diagram, with associations and multiplicities, for the following
