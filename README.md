@@ -82,7 +82,14 @@ With the UML diagram above, please answer the questions below:
 
 
 ```
-Answers here
+1. Port-Jouney Jouney-Vessel
+2. Vessel-Captain
+3. Port-Crain
+4. OilTaker, ContainerShip
+5.  CruiseShip, OilTanker, ContainerShip
+6. name, tonnage, capacity, journeys, captain and oil
+7. 1 to many
+8. IFreightVessel, Vessel, ContainerShip
 ```
 
 Lab - Object-oriented Concepts (Repeat)
