@@ -142,7 +142,7 @@ Which of the following lines are valid?
 4. Product​ p5 ​ = ​ ​ new​ ​ Discountable​ ();
 
 ```
-Your answers
+3. Electronic​ p4 ​ = ​ ​ new​ ​ Discountable​ ();
 ```
 
 
