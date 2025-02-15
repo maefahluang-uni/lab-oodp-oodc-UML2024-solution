@@ -123,6 +123,20 @@ public​ ​ class​ ​ Book​ ​ implements​ ​ Product​ ​ {
     private double price;
    
     // TODO Implement the necessary methods
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public double getPrice() {
+        return price;
+    }
+
+    @Override
+    public double getTotalPrice() {
+        return price; // No discount applied in Book class
+    }
 
 }
 public​ ​ class​ ​ Electronic ​ ​ implements​ Product, Discountable  ​ {
@@ -130,6 +144,25 @@ public​ ​ class​ ​ Electronic ​ ​ implements​ Product, Discountabl
     private double price;
     private double discount;
     // TODO Implement the necessary methods
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public double getPrice() {
+        return price;
+    }
+
+    @Override
+    public double getDiscount() {
+        return discount;
+    }
+
+    @Override
+    public double getTotalPrice() {
+        return price - (price * discount / 100); // Applying discount to the price
+    }
 
 
 }
